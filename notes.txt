@@ -1,0 +1,179 @@
+EMMET
+- click tab to move focus to next $1
+- ! 
+- ul>li
+- li*3
+- p>lorem30
+
+BTS OF LIVE SERVER
+- live server attaches a script to our index.html file
+- which checks for changes and reloads the page if changes are found
+
+INTRO
+- builds the structure of our website
+- every tag has an importance
+- tags are case in-sensitive
+
+<!DOCTYPE html>
+- declaration
+
+BASIC STRUCTURE
+- html -> head and body
+
+HTML
+- only title tag and favicon elements are visible 
+
+META TAGS
+- information that is important but cannot be displayed
+- helps in seo
+
+SELF CLOSING TAGS
+- <br/>
+
+ATTRIBUTES
+- are properties of HTML tags
+- some attributes are compulsory some aren't
+
+ELEMENTS CAN BE NESTED
+
+ANCHOR TAG
+- needs href attribute
+- href = "#" if we don't want our link to re-direct anywhere
+
+TITLE ATTRIBUTE
+- for giving small tooltip
+
+HEADING TAGS
+- h1 h2 h3 h4 h5 h6
+
+PARAGRAPHS
+- for writing text
+
+SPACES AND LINE BREAKS 
+- are ignored
+- use <br/>
+
+SOLUTION TO POEM PROBLEM
+- using <br/> tag
+- using <pre> tag
+
+COMMENTS
+- Ctrl + /
+- <!-- comment --> 
+- is ignored by the browser
+- but it's present in the source code
+
+FORMATTING
+- <b> for bold text (for making text bold when information isn't impactful)
+- <strong> (when information is important or impactful)
+- <i> for italic
+- <em> for emphasis tags
+
+STYLE ATTRIBUTES
+- for inline styling
+
+COLOR FORMATS
+- hex values
+- color names
+- rgb()
+- hsl()
+- rgba()
+- hsla()
+- hwb() (not used much)
+
+INCLUDING STYLING
+- either by linking a stylesheet
+- or by using style tag inside the head tag
+- the CSS which comes later, overrides the older css
+
+QUOTATIONS
+- <blockquote> 
+- <q>
+- <abbr>
+- <address>
+- <cite>
+- <bdo> (<bdo dir="rtl">abcdef</bdo>)
+
+LINKS
+- <a>
+- for blank, mail, tel, link (nothing special)
+- target attribute (_blank , _parent , _self , _top)
+- for HTML bookmarks
+
+PROBLEM WITH COLOR NAMES
+- different browsers interpret differently
+
+IMAGES
+- src attribute (compulsory)
+- alt attribute
+- width and height attribute (both shouldn't be used)
+
+PICTURE ELEMENT
+- picture -> source || source || ..... img (default) 
+
+IMAGE MAP 
+- using online image map generator
+
+LISTS
+- ul or ol or dl
+- used in navigation bars
+- type attribute for ordered lists
+- list-style-type CSS property for unordered lists
+- lists can be nested
+- dl - description lists , dt - term , dd - description
+
+BLOCK ELEMENT AND INLINE ELEMENT 
+- p, h, div are block
+- span, li is inline
+
+CLASSes & IDs
+- used for targeting element
+- selection for styling, or for many other purposes
+
+IFRAME
+- one use is to include youtube videos
+
+HEAD
+- contains the style tag, title tag, link tag (many types of), script tag (some scripts need to loaded before content)
+- meta tags
+- <meta charset="UTF-8"> for specifying the 
+- UTF-16 is better than UTF-8
+- <meta name="keywords" content="HTML, web">
+- basic structure of a meta tag : <meta name="" content="">
+- try commenting the viewport meta tag and open your website in shorter screen (using the developer console)
+
+HTML SEMANTICS
+- used in blog websites
+- examples : code , kbd , samp , var , pre , header , footer , summary , details 
+- earlier we had divs for everything
+
+MEDIA
+- video tag 
+- needs src attribute
+- other attributes : width , height , autoplay , controls , muted , 
+- but these control are the default controls provided by the browser
+- if we want to customize these controls then we need to use javascript 
+- audio tag
+- needs src attribute
+- other attribute : muted , autoplay , control , height and width (not necessary)
+
+APIs
+- we need to use javascript to access the browser apis
+
+HOMEWORK
+- small tag
+- sub 
+- sup
+- del
+- mark
+- global attributes
+- quotations 
+- picture element
+- image map generator
+- some more examples of inline elements
+- more about iframe
+- some commonly used meta tags
+- attributes of the viewport meta tags
+- base tag
+
+READ DOCUMENTATION 🍏
